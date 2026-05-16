@@ -1,6 +1,6 @@
-#Oasis Infobyte Python Programming Internship - TASK(1)
-#PROJECT: BMI CALCULATOR
-#Author: Srivalli
+#Oasis Infobyte Python Programming Internship 
+#PROJECT: BMI CALCULATOR(TASK - 1)
+#Author: Jajala Srivalli
 
 def calculate_bmi(weight,height):
     bmi=((weight)/(height**2))
@@ -17,7 +17,6 @@ def calculate_bmi(weight,height):
 
     return bmi,category
 
-
 print("BMI CALCULATOR")
 
 try:
@@ -30,7 +29,6 @@ try:
              bmi,category=calculate_bmi(weight,height)
              print("BMI = ",bmi)
              print("Category = ",category)
-
 
 except ValueError:
      print("Enter only Numbers..")
