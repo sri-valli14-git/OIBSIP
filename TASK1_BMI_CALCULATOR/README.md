@@ -5,7 +5,7 @@ A command-line BMI(Body Mass Index)Calculator has been built in Python as part o
 Jajala Srivalli - Oasis Infobyte Python Programming Internship.
 
 # How to run
-Enter: python srivalli_Task1.py
+python srivalli_Task1.py
 
 # Requirements
 1.Python 3.x..version, My python version is 3.14.3
