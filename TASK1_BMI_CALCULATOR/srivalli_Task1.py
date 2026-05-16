@@ -17,9 +17,10 @@ def calculate_bmi(weight,height):
 
     return bmi,category
 
-print("BMI CALCULATOR")
-
-try:
+def main():
+    print("BMI CALCULATOR")
+     
+    try:
         weight=float(input("Enter your weight in kgs: "))
         height=float(input("Enter your height in meters: " ))
 
@@ -29,9 +30,15 @@ try:
              bmi,category=calculate_bmi(weight,height)
              print("BMI = ",bmi)
              print("Category = ",category)
+    except ValueError:
+        print("Enter only Numbers..")
 
-except ValueError:
-     print("Enter only Numbers..")
+if __name__ == "__main__":
+    main()
+
+
+
+
 
 
 
