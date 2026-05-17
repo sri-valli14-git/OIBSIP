@@ -33,4 +33,5 @@ def bmi_print():
     except ValueError:
         print("Enter only Numbers..")
 
-bmi_print()
+if __name__ == "__main__":
+    bmi_print()

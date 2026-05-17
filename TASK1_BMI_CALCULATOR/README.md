@@ -8,11 +8,12 @@ Jajala Srivalli - Oasis Infobyte Python Programming Internship
 
 # How to run
 
+Run this command in Terminal:
 python srivalli_Task1.py
 
 # Requirements
 
-1.Python 3.x..
+1.Python 3.x
 (Developed using 3.14.3)
 
 2.No external libraries required
