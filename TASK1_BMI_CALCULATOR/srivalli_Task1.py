@@ -8,16 +8,16 @@ def calculate_bmi(weight,height):
 
     if(bmi<18.5):
         category="Underweight"
-    elif(bmi>=18.5 and bmi<25):
+    elif(bmi<25):
         category="Normal"
-    elif(bmi>=25 and bmi<30):
+    elif(bmi<30):
         category="Overweight"
     else:
         category="Obesity"
 
     return bmi,category
 
-def main():
+def bmi_print():
     print("BMI CALCULATOR")
      
     try:
@@ -25,7 +25,7 @@ def main():
         height=float(input("Enter your height in meters: " ))
 
         if(weight<=0 or height <=0 or height>3.0):
-            print("Invalid Input Values.")
+            print("Invalid Input Values. ")
         else:
              bmi,category=calculate_bmi(weight,height)
              print("BMI = ",bmi)
@@ -33,5 +33,4 @@ def main():
     except ValueError:
         print("Enter only Numbers..")
 
-if __name__ == "__main__":
-    main()
+bmi_print()
